@@ -1,0 +1,180 @@
+/* CSS reset */
+/* Resetting margin and padding for various elements */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+  margin:0;
+  padding:0;
+}
+
+/* Setting margin and padding for html and body elements */
+html,body {
+  margin:50px;
+  padding:0;
+  height: 100%;
+}
+
+/* Resetting table borders and spacing */
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* Removing borders from images */
+img { 
+  border:0;
+}
+
+/* Resetting font styles for certain elements */
+address,caption,cite,code,dfn,th,var {
+  font-style:normal;
+  font-weight:normal;
+}
+
+/* Removing list styles for ordered and unordered lists */
+ol,ul {
+  list-style:none;
+}
+
+/* Adjusting alignment for caption and th elements */
+caption,th {
+  text-align:left;
+}
+
+/* Resetting font size and weight for heading elements */
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+
+/* Styling header element */
+header{
+  display: block;
+}
+
+/* General Demo Style */
+/* Setting font family, background, and other styles for the body */
+body{
+  font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  background:url(images/bgnoise_lg.png);
+  font-weight: 400;
+  font-size: 15px;
+  color: #3a2127; /* Changed color */
+  overflow-y: scroll;
+}
+
+/* Styling hyperlinks */
+a{
+  color: #333; /* Changed color */
+  text-decoration: none;
+}
+
+/* Styling container */
+.container{
+  margin: 0px 20px 10px 20px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Clearing floats */
+.clr{
+  clear: both;
+}
+
+/* Styling header inside the container */
+.container > header{
+  padding: 20px 30px 20px 30px;
+  margin: 0px 20px 10px 20px;
+  position: relative;
+  display: block;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Styling header h1 element */
+.container > header h1{
+  position: relative;
+  color: #498ea5; /* Changed color */
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  padding: 0px 0px 5px 0px;
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+
+/* Styling header h1 span element */
+.container > header h1 span{
+  font-family: 'Alegreya SC', Georgia, serif;
+  font-size: 20px;
+  line-height: 20px;
+  display: block;
+  font-weight: 400;
+  font-style: italic;
+  color: #719dab; /* Changed color */
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Styling header h2 element */
+.container > header h2{
+  font-size: 16px;
+  font-style: italic;
+  color: #2d6277; /* Changed color */
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+
+/* Header Style */
+/* Styling the top bar */
+.freshdesignweb-top{
+  line-height: 24px;
+  font-size: 11px;
+  background: rgba(0, 0, 0, 0.05);
+  text-transform: uppercase;
+  z-index: 9999;
+  position: relative;
+  box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+
+/* Styling top bar links */
+.freshdesignweb-top a{
+  padding: 0px 10px;
+  letter-spacing: 1px;
+  color: #333; /* Changed color */
+  text-shadow: 0px 1px 1px #fff;
+  display: block;
+  float: left;
+}
+
+/* Hover effect for top bar links */
+.freshdesignweb-top a:hover{
+  background: #fff;
+}
+
+/* Styling the right side of the top bar */
+.freshdesignweb-top span.right{
+  float: right;
+}
+
+/* Styling right side links in the top bar */
+.freshdesignweb-top span.right a{
+  float: left;
+  display: block;
+}
+
+/* Styling demo section */
+.freshdesignweb-demos{
+  text-align:center;
+  display: block;
+  line-height: 30px;
+  padding: 20px 0px;
+}
+
+/* Styling demo links */
+.freshdesignweb-demos a{
+  display: inline-block;
+  margin: 0px 4px;
+  padding: 0px 4px;
+  color: #fff; /* Changed color */
+  line-height: 20px;  
+  font-style: italic;
+  font-size: 13px;
+  border-radius: 3px;
+  background: rgba(41,77,95,0
