@@ -1,0 +1,9 @@
+Login details for Department FIle Gallery:
+
+
+Admin Login ---->
+
+username: root
+password: adminroot
+
+
